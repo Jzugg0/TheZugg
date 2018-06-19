@@ -1,0 +1,46 @@
+html{
+  font-size: 16px;
+  font-family: Times;
+  color: white;
+}
+header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  border: 1px solid black;
+  align-items: center;
+  background-color: darkblue;
+  margin: 0px 0px;
+  z-index: 1000;
+}
+.Logo{
+  display: inline-flex;
+  overflow: hidden;
+  width: 10%;
+  height: 85%;
+}
+nav{
+  display: inline-flex;
+  list-style: none;
+  padding-left: 3rem;
+}
+nav li{
+  padding-left: 3rem;
+  display: flex;
+}
+.main{
+  display: flex;
+  position: relative;
+  top: 4rem;
+  width: 100%;
+  height: 25rem;
+  border: 1px solid blue;
+  background-image: url("https://cdn.discordapp.com/attachments/453391407588179999/453392245329100822/jsfgjfgdj.png");
+  background-size: cover;
+  padding: 2rem;
+}
+.body{
+  width: 100%;
+  height: 100%;
+}
